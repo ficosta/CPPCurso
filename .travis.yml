@@ -1,0 +1,11 @@
+language: cpp
+
+compiler:
+        -gcc
+
+sudo: required
+dist: trusty
+
+script:
+        - cd Aula2
+        - g++ exercicio3.cpp -o exercicioa  
